@@ -57,7 +57,7 @@ abbr,acronym { border:0;
   height: 70px;
   color: #F9FAF8;
   justify-content: space-between;
-  padding: 5px 30px 5px 30px;
+  padding: 1rem 13em;
   align-items: center;
 }
 
@@ -75,7 +75,7 @@ abbr,acronym { border:0;
 
 .hero {
   display: flex;
-  padding: 10px 30px 20px 30px;
+  padding: 1rem 13em;
   background-color: #1F2937;
   color: #F9FAF8;
   height: 250px;
@@ -158,7 +158,7 @@ abbr,acronym { border:0;
 
 .quote-container {
   display: flex;
-  padding: 10px 30px 20px 30px;
+  padding: 1rem 13em;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -214,6 +214,16 @@ footer {
   font-weight: 600;
 }
 
+@media only screen and (max-width: 992px) {
+  .hero {
+    padding: 1rem 1rem;
+  }
 
+  .header {
+    padding: 1rem 1em;
+  }
 
-
+  .quote-container {
+    padding: 1rem 1rem;
+  }
+}
